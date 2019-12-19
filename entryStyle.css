@@ -1,0 +1,119 @@
+body {font-family: Arial, Helvetica, sans-serif;   background-color: white; color: white; font-family: 'Gupter'; float: center; }
+form {border: 3px solid black;}
+#entry {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+h2{
+  font-size: 40px;
+  font-family: cursive;
+  color: black;  
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'On-AirInline';
+    src: url('fonts/on-air-inline-webfont.eot');
+    src: url('fonts/on-air-inline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/on-air-inline-webfont.woff') format('woff'),
+         url('fonts/on-air-inline-webfont.ttf') format('truetype'),
+         url('fonts/on-air-inline-webfont.svg#On-AirInline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gupter';
+    src: url('Gupter-Medium.eot');
+    src: local('Gupter Medium'), local('Gupter-Medium'),
+        url('Gupter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gupter-Medium.woff2') format('woff2'),
+        url('Gupter-Medium.woff') format('woff'),
+        url('Gupter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gupter';
+    src: url('Gupter-Bold.eot');
+    src: local('Gupter Bold'), local('Gupter-Bold'),
+        url('Gupter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gupter-Bold.woff2') format('woff2'),
+        url('Gupter-Bold.woff') format('woff'),
+        url('Gupter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gupter';
+    src: url('Gupter-Regular.eot');
+    src: local('Gupter Regular'), local('Gupter-Regular'),
+        url('Gupter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gupter-Regular.woff2') format('woff2'),
+        url('Gupter-Regular.woff') format('woff'),
+        url('Gupter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+button {
+  background-color: #311432;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #311432;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+
+.container {
+  padding: 16px;
+  color: black;
+  font-family: cursive;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
