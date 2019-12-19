@@ -25,6 +25,9 @@ button:hover {
   opacity: 0.8;
 }
 
+form{
+  color: black;
+}
 
 input[type=text], input[type=password] {
   width: 100%;
