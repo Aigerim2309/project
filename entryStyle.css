@@ -11,6 +11,11 @@ h2{
   font-family: cursive;
   color: black;  
 }
+button {
+  background-color: #311432;
+  color: white;
+  
+}
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
