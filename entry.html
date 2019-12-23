@@ -3,13 +3,12 @@
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="entryStyle.css">
-  <link rel="stylesheet" href="main.js">
 </head>
 <body style="background-image: url('https://www.t2t8.com/wp-content/uploads/2017/12/workspace-cartoon.png'); background-repeat: no-repeat; background-position: center; width: 100%; background-size: cover;">
 
 	<div id="entry">
 	<h2 align="center">Second life</h2>
-	<form action="main.html" method="post">
+	
   	<div class="imgcontainer" align="center">
 		<div class="hh">
 			<div class="bedf">
@@ -25,19 +24,19 @@
 
       <div class="container" align="center">
       <label for="uname"><b>pet</b></label>
-      <input type="text" placeholder="pet" name="uname" required>
+      <input id="pet" type="text" placeholder="pet" name="uname" required>
 
       <label for="psw"><b>age</b></label>
-      <input type="text" placeholder="age" name="uname" required>
+      <input id="age" type="text" placeholder="age" name="uname" required>
       
 
       <label for="psw"><b>url</b></label>
-      <input type="text" placeholder="url" name="uname" required>
+      <input id="url" type="text" placeholder="url" name="uname" required>
         
-      <a href="main.html"><button type="submit">Update</button></a>
-      <a href="main.html"><button type="submit">Delete</button></a>
-      <a href="main.html"><button type="submit">Create</button></a>
-      <a href="main.html"><button type="submit">Retrieve</button></a>
+      <button onclick="create()" type="submit">Create</button>
+      <button onclick="update()" type="submit">Update</button>
+      <button onclick="del()"type="submit">Delete</button>
+      <button type="submit">Retrieve</button>
       <label>
           <input type="checkbox" checked="checked" name="remember"> Remember
       </label>
@@ -47,7 +46,8 @@
     	<button type="button" class="cancelbtn">Cancel</button>
     	<span class="psw">update?</span>
   	</div>
-	</form>
+	
 	</div>
+		<script type="text/javascript" src="fetch.js"></script>
 </body>
 </html>
